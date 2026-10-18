@@ -3,7 +3,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'muhammadyaumiladitya/simple-app'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
-        DOCKER_EXE = '"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"'
+        DOCKER_EXE = '"C:\\C:\Users\Asus\AppData\Local\Programs\DockerDesktop\resources\bin\docker"'
     }
     stages {
         stage('Checkout') {
